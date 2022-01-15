@@ -20,7 +20,7 @@ nav > h3{
 .navigation{
     display: flex;
 }
-.navigation li {
+.navigation li{
     
     list-style:none;
     padding: 15px;
@@ -258,23 +258,50 @@ input{
 
 .form{
     display:1fr;
-    
+    flex: none;
     align-items:center;
+    display: block;
    
-    
-}
-}
+   }
+
 .form-wrap{
     width: 420px;
     background: rgb(255, 229, 216);
     padding: 40px 20px;
     box-sizing: border-box;
-  height: 520px;  
+  height: 520px;
+  margin-bottom: 50px; 
+}
+.footer{
+    box-shadow: 1px 1px ;
+    background-color: rgb(6, 13, 53);
+    margin-top: 10%;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    line-height: normal;
+    width: 800px;
+    height: 108px;
+    
 }
 
+}
+@media only screen and (max-width:992px){
 
+    .footer{
+        box-shadow: 1px 1px ;
+        background-color: rgb(6, 13, 53);
+        margin-top: 10%;
+        color: white;
+        text-align: center;
+        padding: 2%;
+        line-height: normal;
+        width: 1100px;
+        height: 120px;
+        
+    }
 
-
+}
 
 
 
